@@ -1,0 +1,32 @@
+.orange-color{
+    color:orangered;
+}
+body{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Mukta', sans-serif;
+}
+h1{
+    font: size 5000px;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width: 100%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding:5px 5px; 
+    border-radius: 1px;
+    color:white;
+    font-weight:700px;
+
+}
+.top-banner{
+    background-image:url(background-images.jpg)
+}
