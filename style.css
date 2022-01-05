@@ -9,17 +9,25 @@ body{
 h1{
     font-size: 50px
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    color: rgb(100, 9, 9);
+
+}
 .orange-color{
     color:orangered;
 }
-section{
+.flexible-container{
     display:flex;
     padding-top: 2px;
     margin-bottom: 52px;
 }
 .half-width{
     width:50%;
-    padding-left:5%;
+    padding-left:3%;
+    padding-right:3%;
 }
 .half-width img{
     width:80%;
@@ -45,4 +53,41 @@ p{
     background-image:url(bg-photo-2.png);
     background-repeat:no-repeat;
     background-position:right;
+}
+.experience-item{
+    box-shadow:10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    
+    
+}
+.experiences{
+    background-image:url(download.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;  
+}
+#experience-item-1{
+    border-image: linear-gradient(orangered, yellow);
+    border-left: 6px solid ;
+    border-image-slice: 1;
+
+}
+#experience-item-2{
+    border-image: linear-gradient(rgb(98, 0, 255), rgb(0, 255, 149));
+    border-left: 6px solid ;
+    border-image-slice: 1;
+
+}
+#exp{
+    padding-left: 3%;
+    padding-bottom: 3%;
+    margin: 10px;
+}
+footer p{
+    text-align: center;
 }
